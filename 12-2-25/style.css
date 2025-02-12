@@ -1,0 +1,28 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(250, 101, 140);
+    }
+    .container{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: violet;
+    }
+    .box{
+        font-style: italic;
+        font-size: 2.5rem;
+        padding: 20px;
+        border-radius: 30%;
+        background-color: rgba(0, 0, 0, 0.66);
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
